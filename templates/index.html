@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            .cartao{
+                position: relative;
+                display:flex;
+                align-items: center;
+                gap: 35px;
+                border:4px solid purple;
+                border-radius: 10px;
+                padding: 10px;
+                font-family: 'Jacquard 12';
+                color:indigo
+            }
+            h2{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                margin:0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cartao">
+            <img src={{imagem}}>
+            <h2>#{{numero}}</h2>
+            <h1>{{nome}}</h1>
+        </div>
+    </body>
+</html>
